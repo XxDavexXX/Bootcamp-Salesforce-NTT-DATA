@@ -55,25 +55,25 @@ nttdata-bootcamp-reto/
 
 ## 📥 Instalación y Ejecución
 
-# Clonar el repositorio
+# 1. Clonar el repositorio
 git clone https://github.com/tuusuario/nttdata-bootcamp-reto.git
 
-# Ir al directorio del back-end
+# 2. Ir al directorio del back-end
 cd nttdata-bootcamp-reto/backend
 
-# Configurar variables de entorno
-Crea un archivo llamado `.env` dentro de la carpeta `backend/` con el siguiente contenido:
-PORT=3000
+# 3. Crear archivo de entorno (.env)
+echo PORT=3000 > .env
 
-# Instalar dependencias
+# 4. Instalar dependencias
 npm install
 
-# Ejecutar servidor
+# 5. Ejecutar el servidor
 node app.js
 
-#Visualizar el front-end
+# 6. Visualizar el front-end
 cd ../frontend
-Abre el archivo index.html en tu navegador
+Abrir el archivo index.html en el navegador manualmente
+
 
 ## 👨‍💻 Autor
 
@@ -91,12 +91,13 @@ Mi meta es certificarme como desarrollador Salesforce y formar parte de una empr
 
 ---
 
-## 📝 Notas Finales
+## 💼 Experiencia con las Tecnologías Aplicadas
 
-- Proyecto realizado exclusivamente para evaluación técnica en el Bootcamp de NTT DATA Perú.
-- Enfoque en la separación clara de responsabilidades y estructura modular del código.
-- El código fuente puede ser adaptado y extendido para futuras mejoras o integraciones.
-- No se incluyen datos sensibles ni credenciales en el repositorio.
+Durante mi trayectoria como desarrollador, he tenido la oportunidad de trabajar directamente con las tecnologías implementadas en este reto técnico. Como Analista Programador en Materia Gris, participé en el diseño y construcción de servicios RESTful utilizando Node.js y Express para soluciones web y móviles orientadas a mejorar la eficiencia operativa de los clientes. Además, desarrollé interfaces funcionales y responsivas, integrando de forma eficiente back-end y front-end en arquitecturas full-stack.
+
+En proyectos anteriores como practicante full stack en Ruiz Santa Maria & Asociados, trabajé con Node.js, integrando autenticación y despliegues en la nube (AWS y Firebase), así como en el mantenimiento de soluciones móviles y web. Estas experiencias consolidaron mi dominio sobre la estructuración de servicios backend, el consumo de APIs externas y el uso profesional de herramientas como Git y control de versiones.
+
+Elegí aplicar Node.js y Express en este reto porque son tecnologías robustas, livianas y ampliamente utilizadas en el desarrollo backend moderno. Su curva de aprendizaje es ideal para prototipos rápidos y escalables, y permiten una fácil integración con APIs de terceros como randomuser.me. Del lado del cliente, opté por HTML, CSS y JavaScript puro para mantener un enfoque claro y directo, alineado con los requisitos del bootcamp.
 
 ---
 
