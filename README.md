@@ -59,22 +59,32 @@ nttdata-bootcamp-reto/
 ## 📥 Instalación y Ejecución
 
 # 1. Clonar el repositorio
+```text
 git clone https://github.com/tuusuario/nttdata-bootcamp-reto.git
-
+```
 # 2. Ir al directorio del back-end
+```text
 cd nttdata-bootcamp-reto/backend
-
+```
 # 3. Crear archivo de entorno (.env)
+```text
 echo PORT=3000 > .env
+```
 
 # 4. Instalar dependencias
+```text
 npm install
+```
 
 # 5. Ejecutar el servidor
+```text
 node app.js
+```
 
 # 6. Visualizar el front-end
+```text
 cd ../frontend
+```
 Abrir el archivo index.html en el navegador manualmente
 
 
