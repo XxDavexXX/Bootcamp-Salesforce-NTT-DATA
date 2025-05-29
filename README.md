@@ -53,7 +53,7 @@ nttdata-bootcamp-reto/
 │   ├── styles.css
 ├── .gitignore
 └── README.md
-
+```
 
 
 ## 📥 Instalación y Ejecución
