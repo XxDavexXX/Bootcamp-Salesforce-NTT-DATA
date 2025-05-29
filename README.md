@@ -31,6 +31,8 @@ La solución implementa una **API RESTful** con Node.js/Express para el back-end
 ---
 
 ## 📁 Estructura del Proyecto
+
+```text
 nttdata-bootcamp-reto/
 ├── backend/
 │   ├── controllers/
@@ -42,7 +44,7 @@ nttdata-bootcamp-reto/
 │   ├── config/
 │   │   └── server.js                
 │   ├── app.js                       
-│   ├── .env                     
+│   ├── .env                         
 │   ├── package.json
 │   └── package-lock.json
 ├── frontend/
@@ -51,6 +53,7 @@ nttdata-bootcamp-reto/
 │   ├── styles.css
 ├── .gitignore
 └── README.md
+
 
 
 ## 📥 Instalación y Ejecución
